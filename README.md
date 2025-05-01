@@ -61,8 +61,6 @@ Type `options` at the command prompt to display all supported commands.
 
 ## File Layout
 
-## File Layout
-
 <pre> ``` image-processor/ ├── src/ │ └── imageprocessing/ │ ├── ImageUtil.java │ ├── model/ │ │ ├── ImageProcessingModel.java │ │ ├── ImageProcessingModelImpl.java │ │ ├── ImageProcessingModelState.java │ │ ├── RGB.java │ │ └── Histograms.java │ ├── controller/ │ │ └── ImageProcessingController.java │ └── view/ │ ├── ImageProcessingView.java │ └── ImageProcessingImageView.java ├── test/ │ └── ImageProcessingImageView.java ├── images/ # Sample input images ├── README.md ├── ImageProcessor.jar # Compiled executable └── examplecommand.txt # Example script for CLI ``` </pre>
 
 ## Notes
