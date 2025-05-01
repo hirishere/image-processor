@@ -1,30 +1,31 @@
-load res/tiger.ppm tiger
+load images/tiger.ppm tiger
 horizontal-flip tiger tiger-hflip
-save res/tiger-hflip.png tiger-hflip
+save images/tiger-hflip.png tiger-hflip
 vertical-flip tiger tiger-vflip
-save res/tiger-vflip.png tiger-flip
+save images/tiger-vflip.png tiger-vflip
 red-component tiger tiger-red
-save res/tiger-red-grey.png tiger-red
+save images/tiger-red-grey.png tiger-red
 blue-component tiger tiger-blue
-save res/tiger-blue-grey.png tiger-blue
+save images/tiger-blue-grey.png tiger-blue
 green-component tiger tiger-green
-save res/tiger-green-grey.png tiger-green
+save images/tiger-green-grey.png tiger-green
 value-component tiger tiger-value
-save res/tiger-value-grey.png tiger-value
+save images/tiger-value-grey.png tiger-value
 luma-component tiger tiger-luma
-save res/tiger-luma-grey.png tiger-puma
+save images/tiger-luma-grey.png tiger-luma
 intensity-component tiger tiger-intensity
-save res/tiger-intensity-grey.png tiger-intensity
+save images/tiger-intensity-grey.png tiger-intensity
 brighten 50 tiger tiger-brighter
-saver res/tiger-brighter.png tiger-brighter
+save images/tiger-brighter.png tiger-brighter
 blur tiger tiger-blur
-save res/tiger-blur.png tiger-blur
+save images/tiger-blur.png tiger-blur
 sharpen tiger tiger-sharpen
-save res/tiger-sharpen.png tiger-sharpen
+save images/tiger-sharpen.png tiger-sharpen
 greyscale tiger tiger-grey
-save res/tiger-grey.bmp tiger-grey
+save images/tiger-grey.bmp tiger-grey
 sepia tiger tiger-sepia
-save res/tiger-sepia.jpg tiger-sepia
+save images/tiger-sepia.jpg tiger-sepia
+exit
 
 
 
