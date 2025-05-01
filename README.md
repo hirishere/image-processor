@@ -59,10 +59,6 @@ Type `options` at the command prompt to display all supported commands.
 - `-file <script.txt>` (to run commands from a script file)
 - `exit` (to quit the program)
 
-## File Layout
-
-<pre> ``` image-processor/ ├── src/ │ └── imageprocessing/ │ ├── ImageUtil.java │ ├── model/ │ │ ├── ImageProcessingModel.java │ │ ├── ImageProcessingModelImpl.java │ │ ├── ImageProcessingModelState.java │ │ ├── RGB.java │ │ └── Histograms.java │ ├── controller/ │ │ └── ImageProcessingController.java │ └── view/ │ ├── ImageProcessingView.java │ └── ImageProcessingImageView.java ├── test/ │ └── ImageProcessingImageView.java ├── images/ # Sample input images ├── README.md ├── ImageProcessor.jar # Compiled executable └── examplecommand.txt # Example script for CLI ``` </pre>
-
 ## Notes
 
 - You must load and name an image before applying any operations.
