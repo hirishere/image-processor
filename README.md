@@ -35,7 +35,7 @@ You can also run the program by executing the `main()` method in `ImageProcessin
 
 ## Example Script
 
-load res/image.jpg original blur original blurred brighten 30 blurred bright save output/bright.jpg bright
+Included as examplecommand.txt
 
 Type `options` at the command prompt to display all supported commands.
 
@@ -61,7 +61,29 @@ Type `options` at the command prompt to display all supported commands.
 
 ## File Layout
 
-src/ controller/ model/ view/ res/ # Sample images output/ # Processed images scripts/ # Example scripts ImageProcessor.jar
+## File Layout
+
+image-processor/
+├── src/
+│   └── imageprocessing/
+│       ├── ImageUtil.java
+│       ├── model/
+│       │   ├── ImageProcessingModel.java
+│       │   ├── ImageProcessingModelImpl.java
+│       │   ├── ImageProcessingModelState.java
+│       │   ├── RGB.java
+│       │   └── Histograms.java
+│       ├── controller/
+│       │   └── ImageProcessingController.java
+│       └── view/
+│           ├── ImageProcessingView.java
+│           └── ImageProcessingImageView.java
+├── test/
+│   └── ImageProcessingImageView.java
+├── images/               # sample input images
+├── README.md
+├── ImageProcessor.jar    # compiled executable
+└── examplecommand.txt    # example script for CLI
 
 ## Notes
 
