@@ -1,0 +1,5 @@
+HOW TO:
+Run the main method in the ImageProcessingController class to start the text-based scripting program.
+The script is very self-explanatory! Type 'options' to see all of the command options for the user, as instructed.
+
+Images must be loaded and named before being manipulated. The program will redirect you if necessary. 
