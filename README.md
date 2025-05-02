@@ -67,4 +67,4 @@ Type `options` at the command prompt to display all supported commands.
 ## Image Credits
 
 - Tiger image: [Britannica](https://www.britannica.com/animal/tiger)
-- All other images used were taken by the developer on an iPhone.
+- All other images used were taken by me!
